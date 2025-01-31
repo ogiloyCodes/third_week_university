@@ -165,6 +165,87 @@ double distance_in_km, time, velocity_in_km, distance_in_miles, velocity_in_mile
 */
 
 
+/*
+PROBLEM 12
+  int total , hours, minutes;
+    cout << "Enter the total minutes: ";
+    cin >> total;
+hours = total / 60;
+    minutes = total % 60;
+ 
+    cout << "Total time:  " <<hours<<" hours "<< minutes<< " minutes"<<endl;
+    */
+    
+    
+    /*
+    PROBLEM 13
+    
+    
+    int selling_price, variable_cost, bep;
+    int fixed_cost = 10000;
+    cout<<"Enter selling price per unit: "<<endl;
+    cin>>selling_price;
+     cout<<"Enter variable cost per unit: "<<endl;
+    cin>>variable_cost;
+    
+    bep = fixed_cost/(selling_price - variable_cost) ;
+    
+    cout<<"Break-even point: "<<bep<<endl;
+    */
+    
+    /*
+    
+    PROBLEM 14
+    
+    
+    int basic_salary, tax_amount, tax_percentage, net_salary;
+    cout<<" Enter basic salary: "<< endl;
+    cin>> basic_salary;
+    cout<<" Enter tax percentage: "<< endl;
+    cin>> tax_percentage;
+    tax_amount = basic_salary * tax_percentage * 0.01;
+    net_salary = basic_salary - tax_amount;
+    cout<<"Total salary: "<<net_salary<< endl;
+    */
+    
+    
+    /*
+    
+    PROBLEM 15
+    
+    int original_price, discount_amount, discount_percentage, final_price;
+    cout<<"Original price: "<< endl;
+    cin>> original_price;
+    cout<<"Discount Percentage: "<< endl;
+    cin>> discount_percentage;
+    discount_amount = original_price * discount_percentage * 0.01;
+    final_price = original_price - discount_amount;
+    cout<<"Discount amount: "<<discount_amount<<endl;
+    cout<<"Final Price : "<<final_price<< endl;
+    */
+    
+    
+    /*
+   // PROBLEM 16 
+    
+    
+    double grade1, grade2, grade3, grade4, grade5, gpa;
+    int c_hour1, c_hour2, c_hour3, c_hour4, c_hour5;
+    cout<<"Grade points for 5 courses: "<<endl;
+    cin>>grade1>>grade2>>grade3>>grade4>>grade5;
+     cout<<"Credit hours for 5 courses: "<<endl;
+    cin>>c_hour1>>c_hour2>>c_hour3>>c_hour4>>c_hour5;
+    
+    
+     double total_grade_points = (grade1 * c_hour1) + (grade2 * c_hour2) + (grade3 * c_hour3) + (grade4 * c_hour4) + (grade5 * c_hour5);
+    int total_credit_hours = c_hour1 + c_hour2 + c_hour3 + c_hour4 + c_hour5;
+    
+    gpa = total_grade_points / total_credit_hours;
+ 
+    cout<<"The avarage GPA is: "<<gpa<<endl;
+    */
+    
+    
 
     return 0;
 
