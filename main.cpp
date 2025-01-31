@@ -2,36 +2,15 @@
 using namespace std;
 
 
-//problem 3//degree
-// int main() {
-//     int temperature_in_celcius;
-//     double conversion;
-//     cout<<"enter the temperature in celcius:"<<endl;
-//     cin>>temperature_in_celcius;
-//     conversion=temperature_in_celcius*9/5+32;
-//     cout<<"temperature in celcius is "<<temperature_in_celcius<<"  temperature in fahrenheit  "<<conversion<<endl;
-//
-//
-// }
-
 int main() {
 
 
-    /* double price1,price2,price3;
-    double total_cost;
-    cout<<"Enter price of the first item:"<<endl;cin>>price1;
-    cout<<"Enter the price of second item:"<<endl;cin>>price2;
-    cout<<"Enter the price of third item:"<<endl;cin>>price3;
-    int quantity1,quantity2,quantity3;
-    cout<<"Enter the quantity of the first item:"<<endl;cin>>quantity1;
-    cout<<"Enter the quantity of the second item:"<<endl;cin>>quantity2;
-    cout<<"Enter the quantity of the third item:"<<endl;cin>>quantity3;
-    total_cost=price1*quantity1+price2*quantity2+price3*quantity3;cout<<" Total cost is:  "<<total_cost; cout<<endl;
-
-*/
-
 
 /*
+
+ PROBLEM 1
+
+
     double first, second, third, fourth, fifth, sum;
     cout << "Enter five numbers" << endl;
     cin >> first>> second>> third>> fourth>> fifth;
@@ -44,7 +23,8 @@ int main() {
 
 
 /*
-Problem 2
+PROBLEM 2
+
     int id;
     short year_of_study ;
     double study_fee;
@@ -66,7 +46,8 @@ Problem 2
 
 
 /*
-Problem 3
+PROBLEM 3
+
     double temperature_in_celcius;
     double conversion;
     cout<<"Enter the temperature in celcius:"<<endl;
@@ -78,10 +59,11 @@ Problem 3
 
 */
 
+
+
     /*
+
     PROBLEM 4
-
-
 
 double cost;
    int quantity;
@@ -170,6 +152,8 @@ cout << "The volume of the cylinder with r="<<radius_of_base<<" and h="<<height<
 
     */
 
+/*
+    PROBLEM 11
 
 double distance_in_km, time, velocity_in_km, distance_in_miles, velocity_in_miles;
     distance_in_km = 450;
@@ -178,6 +162,9 @@ double distance_in_km, time, velocity_in_km, distance_in_miles, velocity_in_mile
     velocity_in_km = distance_in_km / time;
     velocity_in_miles = velocity_in_km / time;
     cout << "V = " << velocity_in_km <<"km/h and "<< velocity_in_miles<<" miles/h"<<endl;
+*/
+
+
 
     return 0;
 
