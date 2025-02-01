@@ -244,6 +244,67 @@ hours = total / 60;
  
     cout<<"The avarage GPA is: "<<gpa<<endl;
     */
+
+
+    /*
+   PROBLEM 17
+   
+   double initial, final, inflation;
+   cout<<"Initial Price: "<<endl;
+   cin>>initial;
+cout<<"Final Price: "<<endl;
+  cin>>final;
+
+inflation = ((final - initial)/initial)*100;
+
+cout<<"Inflation rate: "<<inflation<<"%"<<endl;
+
+
+*/
+
+
+/*
+PROBLEM 18
+
+double original_fee, scholarship_rate, scholarship_amount, final_fee;
+cout<<"Original tuition fee: "<<endl;
+cin>>original_fee;
+cout<<"Scholarship rate: "<<endl;
+cin>>scholarship_rate;
+scholarship_amount = scholarship_rate/100*original_fee;
+cout<<"Scholarship amount: "<<scholarship_amount<<endl;
+final_fee = original_fee - scholarship_amount;
+cout<<"Final Tuition fee: "<<final_fee<<endl;
+
+*/ 
+
+/*
+
+PROBLEM 19
+
+
+    double price, rate, simple_interest, time;
+    cout<<"Principal amount: "<<endl;
+    cin>>price;
+    cout<<"Rate of interest(percentage) "<<endl;
+    cin>>rate;
+    cout<<"Time in years: "<<endl;
+    cin>>time;
+    simple_interest= price*rate*time/100;
+    cout<<"The simple interest is: "<<simple_interest<<endl;
+    */
+    
+    
+    double principal, rate, simple_interest, amount, compound_interest;
+    cout<<"Principal amount: "<<endl;
+    cin>>principal;
+    cout<<"Annual interest rate(percentage) "<<endl;
+    cin>>rate;
+    amount = principal*(1+rate/100)*(1+rate/100);
+    compound_interest = amount-principal;
+    cout<<"Compound Interest after 2 years: "<<compound_interest<<endl;
+    cout<<"Total amount after 2 years: "<<compound_interest+ principal<<endl;  
+    
     
     
 
